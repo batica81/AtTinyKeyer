@@ -3,7 +3,7 @@ Simulates a keystroke on a keyboard when pin pulled down.
 
 
 This little program can help you use a straight key or paddle keyer output with 
-Morse code learning apps that support keying via the PC/phone keyboard, like Morse Mania
+Morse code learning apps that support keying via the PC/phone keyboard, like Morse Mania, Morse-x
 or PCW Fistcheck. You can also use Morserino as a keyer, and practice letter and word timing.
 
 Program is intended to be flashed to a $2 Digispark Attiny85 microcontroller module. 
