@@ -34,7 +34,7 @@ void loop() {
     if (digitalRead(0) == LOW)
     {
       digitalWrite(1, HIGH); // Blink led
-      // Choose one character to send on key down.
+      // Choose one character to send on key down, leave others commented out.
       
       // If you need some other character, look at the list here: https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf 
       // or rummage through DigiKeyboard.h file.
