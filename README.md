@@ -20,6 +20,13 @@ The controller will emulate a keyboard and send the needed character to the app 
 you key down. There shouldn't be any noticeable delay on Windows, Android, native Linux,
 while Wine on Linux is also usable.
 
+****** UPDATE v2.0 *******
+This version has two keying options, selectable by wire connection, or a switch.
+Wire for other character(s) should be connected to pin PB2 (we skip PB1 as it is connected
+to builtin LED). You can add switch or move the wire manually when you want to use
+a different program. DO NOT connect both at the same time!!! 
+
+---
 
 For setting up Arduino IDE in order to program Attiny use this tutorial:
 
