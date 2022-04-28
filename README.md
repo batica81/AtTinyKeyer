@@ -60,6 +60,10 @@ many times on Windows 10 for me, but rarely on Linux.
 
 ---
 
+Short video tutorial (in Serbian) https://www.youtube.com/watch?v=BuLn2ZkDHes 
+
+---
+
 The program is created by YU4HAK, based on code snippets found here and there, 
 and is free in every possible sense, no attribution needed.
 73
