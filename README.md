@@ -58,6 +58,8 @@ many times on Windows 10 for me, but rarely on Linux.
 
 ![alt text](https://github.com/batica81/AtTinyKeyer/blob/master/schematic.jpg?raw=true)
 
+![alt text](https://github.com/batica81/AtTinyKeyer/blob/master/device.jpg?raw=true)
+
 ---
 
 Short video tutorial (in Serbian) https://www.youtube.com/watch?v=BuLn2ZkDHes 
