@@ -42,7 +42,9 @@ void setup() {
 void loop() {
     if (digitalRead(0) == LOW)
     {
-      digitalWrite(1, HIGH); // Blink led
+//      digitalWrite(1, HIGH); // Blink led
+      tone(1, 700); // Play tone
+
       
       // If you need some other character, look at the list here: https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf 
       // or rummage through DigiKeyboard.h file.
@@ -51,10 +53,14 @@ void loop() {
     }
     else if (digitalRead(2) == LOW)
     {
-      digitalWrite(1, HIGH); // Blink led
+//      digitalWrite(1, HIGH); // Blink led
+      tone(1, 700); // Play tone
+      
       DigiKeyboard.sendKeyPress(79 , MOD_CONTROL_RIGHT); // "Right Arrow" key, used for PCW Fistcheck, "Right Control" key, used for Vband
     } else {
-      digitalWrite(1, LOW); // Blink led
+//      digitalWrite(1, LOW); // Blink led
+      noTone(1); //Stop tone
+      
       DigiKeyboard.sendKeyPress(0); // Unpress the key.
     }
     DigiKeyboard.delay(2); // Not sure about the optimal value, but this seems to work.
