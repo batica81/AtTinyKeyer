@@ -31,12 +31,14 @@ a different program. DO NOT connect both at the same time!!!
 
 For setting up Arduino IDE in order to program Attiny use this tutorial:
 
-http://digistump.com/wiki/digispark/tutorials/connecting
+http://digistump.com/wiki/digispark/tutorials/connecting (dead link :( use archived version)
+https://web.archive.org/web/20240229063724/http://digistump.com/wiki/digispark/tutorials/connecting
 
 Or in broad strokes:
 
 Open Preferences, and in the box labeled "Additional Boards Manager URLs" enter:
-http://digistump.com/package_digistump_index.json
+http://digistump.com/package_digistump_index.json (another dead link :( )
+https://raw.githubusercontent.com/digistump/arduino-boards-index/master/package_digistump_index.json
 
 Go to Boards Manager and add Digispark
 
